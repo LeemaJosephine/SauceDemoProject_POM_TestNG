@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T00:29:42 IST" name="Suite" finished-at="2025-05-15T00:30:07 IST" duration-ms="25032">
+    <groups>
+    </groups>
+    <test started-at="2025-05-15T00:29:42 IST" name="ChromeTest" finished-at="2025-05-15T00:30:07 IST" duration-ms="25032">
+      <class name="test.TC_001_LoginTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:41 IST" name="reportInitialization" finished-at="2025-05-15T00:29:42 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:42 IST" name="setup" finished-at="2025-05-15T00:29:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:42 IST" name="testDetails" finished-at="2025-05-15T00:29:42 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="browserLaunchAndLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:44 IST" name="browserLaunchAndLoadUrl" finished-at="2025-05-15T00:29:48 IST" duration-ms="4054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndLoadUrl -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:48 IST" name="loginTest" data-provider="readData" finished-at="2025-05-15T00:29:48 IST" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidInputs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:49 IST" name="browserClose" finished-at="2025-05-15T00:29:49 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunchAndLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:49 IST" name="browserLaunchAndLoadUrl" finished-at="2025-05-15T00:29:51 IST" duration-ms="2583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndLoadUrl -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:51 IST" name="loginTest" data-provider="readData" finished-at="2025-05-15T00:29:53 IST" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:53 IST" name="browserClose" finished-at="2025-05-15T00:29:53 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunchAndLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:53 IST" name="browserLaunchAndLoadUrl" finished-at="2025-05-15T00:29:56 IST" duration-ms="2616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndLoadUrl -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:56 IST" name="loginTest" data-provider="readData" finished-at="2025-05-15T00:29:57 IST" duration-ms="1357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:57 IST" name="browserClose" finished-at="2025-05-15T00:29:58 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunchAndLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:29:58 IST" name="browserLaunchAndLoadUrl" finished-at="2025-05-15T00:30:01 IST" duration-ms="3528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndLoadUrl -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:01 IST" name="loginTest" data-provider="readData" finished-at="2025-05-15T00:30:02 IST" duration-ms="558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BlankInputs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:02 IST" name="browserClose" finished-at="2025-05-15T00:30:02 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunchAndLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:02 IST" name="browserLaunchAndLoadUrl" finished-at="2025-05-15T00:30:06 IST" duration-ms="3532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchAndLoadUrl -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:06 IST" name="loginTest" data-provider="readData" finished-at="2025-05-15T00:30:06 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidInputs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:06 IST" name="browserClose" finished-at="2025-05-15T00:30:07 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:test.TC_001_LoginTest@7c6908d7]" started-at="2025-05-15T00:30:07 IST" name="closeReport" finished-at="2025-05-15T00:30:07 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- test.TC_001_LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
