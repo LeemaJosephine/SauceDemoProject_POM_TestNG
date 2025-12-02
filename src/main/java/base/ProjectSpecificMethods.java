@@ -56,7 +56,7 @@ public class ProjectSpecificMethods extends UtilityClass{
 	@AfterMethod
 	public void browserClose() {
 		
-		closeBrowser();
+		//closeBrowser();
 	}
 	
 	@AfterSuite

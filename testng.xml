@@ -8,7 +8,7 @@
   <test name="ChromeTest">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="test.TC_001_LoginTest"/>
+      <class name="test.TC_004_CheckOut"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

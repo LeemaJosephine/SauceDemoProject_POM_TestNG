@@ -1,10 +1,14 @@
 package utils;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -31,30 +35,39 @@ public class UtilityClass {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public String testname, testdescription, testCategory, testAuthor; 
+	public static Properties prop = new Properties();
+    public static String filePath = "C:\\Users\\Digital Suppliers\\personal_space\\SauceDemoProject\\src\\test\\resources\\data\\config.properties";
+
 	
 	public void browserLaunch(String browser) {
 		
+
 		if(browser.equals("chrome")) {
 			
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-notifications");
+	        options.addArguments("--disable-infobars");
+	        options.addArguments("--disable-notifications");
+	        options.addArguments("--incognito");
+	        
 			driver = new ChromeDriver(options);
 			
 		} else if(browser.equals("edge")){
 			
-			EdgeOptions options = new EdgeOptions();
-			options.addArguments("--disable-notifications");
-			driver = new EdgeDriver(options);
+			EdgeOptions option = new EdgeOptions();
+			option.addArguments("--disable-notifications");
+			driver = new EdgeDriver(option);
 			
 		} else if(browser.equals("firefox")){
 			
-			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--disable-notifications");
-			driver = new FirefoxDriver(options);
+			FirefoxOptions option = new FirefoxOptions();
+			option.addArguments("--disable-notifications");
+			driver = new FirefoxDriver(option);
 			
 		} else{
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-notifications");
+	        options.addArguments("--disable-infobars");
+	        options.addArguments("--disable-notifications");
+	        
 			driver = new ChromeDriver(options);
 		}
 		
@@ -88,7 +101,8 @@ public class UtilityClass {
 	                if (cell == null) {
 	                    data[i - 1][j] = "";
 	                } else {
-	                    switch (cell.getCellType()) {
+	                	//data[i - 1][j] =cell.getStringCellValue();
+	                	switch (cell.getCellType()) {
 	                        case STRING:
 	                            String value = cell.getStringCellValue().trim();
 	                            data[i - 1][j] = value.equalsIgnoreCase("null") ? null : value;
@@ -119,6 +133,35 @@ public class UtilityClass {
 		return path;
 	}
 	
+	public void writeInPropFile(String variable, String value) throws IOException {
+		
+		prop = new Properties();
+		prop.setProperty(variable, value);
+		FileOutputStream output = new FileOutputStream("C:\\Users\\Digital Suppliers\\personal_space\\SauceDemoProject\\src\\test\\resources\\data\\config.properties");
+        prop.store(output, "Details taken from web application for validation");
+        output.close();
+		
+	}
+	
+	public static void readFromPropFile() throws Exception {
+		
+		String path="C:\\Users\\Digital Suppliers\\personal_space\\SauceDemoProject\\src\\test\\resources\\data\\config.properties";
+		FileReader file = new FileReader(path);
+		prop = new Properties();
+		prop.load(file);
+	}
+	
+	 public static void readAndWritePropFile()throws IOException {
+	        // Step 1: Load existing properties
+	        FileInputStream input = new FileInputStream(filePath);
+	        prop.load(input);
+	        input.close();
+
+	        FileOutputStream output = new FileOutputStream(filePath);
+	        prop.store(output, "Updated property from web application");
+	        output.close();
+	    }
+	 
 	public void closeBrowser() {
 		
 		driver.close();
