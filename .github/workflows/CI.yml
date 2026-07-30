@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '21'
+          java-version: '17'
           cache: maven
 
       - name: Verify Java
@@ -36,7 +36,7 @@ jobs:
         run: mvn clean compile
 
       - name: Execute TestNG Tests
-        run: mvn test -DsuiteXmlFile=testng.xml
+        run: mvn clean test
 
       - name: Upload Test Reports
         if: always()
@@ -45,4 +45,4 @@ jobs:
           name: TestReports
           path: |
             test-output/**
-            src/test/resources/testOutput/**
+            testOutput/**
