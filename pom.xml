@@ -44,22 +44,24 @@
 	</dependencies>
 	
 	<build>
-          <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-            <plugins>
-             <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
-                <configuration>
+    <plugins>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.5</version>
+
+            <configuration>
                 <suiteXmlFiles>
-					<suiteXmlFile>testng.xml</suiteXmlFile>
-                	<suiteXmlFile>testngParallel.xml</suiteXmlFile>
-                	<suiteXmlFile>testngGroup.xml</suiteXmlFile>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                    <suiteXmlFile>testngParallel.xml</suiteXmlFile>
+                    <suiteXmlFile>testngGroup.xml</suiteXmlFile>
                 </suiteXmlFiles>
-               </configuration>
-            </plugin>
-           </plugins>
-         </pluginManagement>
-	    </build>
+            </configuration>
+
+        </plugin>
+
+    </plugins>
+</build>
 
 </project>

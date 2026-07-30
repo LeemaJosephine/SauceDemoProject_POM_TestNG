@@ -135,7 +135,7 @@ public class UtilityClass {
 		String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 		
 		String path = System.getProperty("user.dir")
-		        + "\\src\\test\\resources\\testOutput\\screenShots\\"
+		        + "testOutput\\screenShots\\"
 		        + name + timestamp + ".png";
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

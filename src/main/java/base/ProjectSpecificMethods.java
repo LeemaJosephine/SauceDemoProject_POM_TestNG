@@ -23,7 +23,7 @@ public class ProjectSpecificMethods extends UtilityClass{
 		//To create report in the given location
 		ExtentSparkReporter reporter = new ExtentSparkReporter(
 			    System.getProperty("user.dir")
-			    + "\\src\\test\\resources\\testOutput\\extentReport\\SwagLabAppReport.html");
+			    + "testOutput\\extentReport\\SwagLabAppReport.html");
 		reporter.config().setReportName("Swag Lab App Report");
 		
 		//To capture the test data
@@ -58,7 +58,7 @@ public class ProjectSpecificMethods extends UtilityClass{
 	@AfterMethod
 	public void browserClose() {
 		
-		//closeBrowser();
+		closeBrowser();
 	}
 	
 	@AfterSuite
