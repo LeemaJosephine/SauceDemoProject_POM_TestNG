@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="utils.Listener"></listener>
+</listeners>
+<parameter name="url" value="https://www.saucedemo.com/"></parameter>
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+  
+  	<groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="test.TC_001_LoginTest"/>
+            <class name="test.TC_002_ProductList"/>
+            <class name="test.TC_003_AddToCart"/>
+            <class name="test.TC_004_CheckOut"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrossBrowserParallelSuite" class="navigator-link">
+              <span class="suite-name border-failed">CrossBrowserParallelSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>C:\Users\leema\Downloads\SauceDemoProject_POM_TestNG-master\SauceDemoProject_POM_TestNG-master\testngParallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrossBrowserParallelSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 6 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CrossBrowserParallelSuite" class="hide-methods failed suite-CrossBrowserParallelSuite"> (hide)</a> <!-- hide-methods failed suite-CrossBrowserParallelSuite -->
+                      <a href="#" panel-name="suite-CrossBrowserParallelSuite" class="show-methods failed suite-CrossBrowserParallelSuite"> (show)</a> <!-- show-methods failed suite-CrossBrowserParallelSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CrossBrowserParallelSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_004_CheckOut" class="method navigator-link" hash-for-method="checkOutTest">checkOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)">loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(, , BlankInputs, Epic sadface: Username is required)">loginTest(, , BlankInputs, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_002_ProductList" class="method navigator-link" hash-for-method="productListTest">productListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_003_AddToCart" class="method navigator-link" hash-for-method="productListTest">productListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_002_ProductList" class="method navigator-link" hash-for-method="productListTest">productListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CrossBrowserParallelSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CrossBrowserParallelSuite" class="hide-methods passed suite-CrossBrowserParallelSuite"> (hide)</a> <!-- hide-methods passed suite-CrossBrowserParallelSuite -->
+                      <a href="#" panel-name="suite-CrossBrowserParallelSuite" class="show-methods passed suite-CrossBrowserParallelSuite"> (show)</a> <!-- show-methods passed suite-CrossBrowserParallelSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CrossBrowserParallelSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_004_CheckOut" class="method navigator-link" hash-for-method="checkOutTest">checkOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(, , BlankInputs, Epic sadface: Username is required)">loginTest(, , BlankInputs, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)">loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)">loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)">loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)">loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)">loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)">loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_001_LoginTest" class="method navigator-link" hash-for-method="loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)">loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrossBrowserParallelSuite" title="test.TC_003_AddToCart" class="method navigator-link" hash-for-method="productListTest">productListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CrossBrowserParallelSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrossBrowserParallelSuite" class="panel CrossBrowserParallelSuite">
+          <div class="suite-CrossBrowserParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_001_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,secret_sauce,ValidInputs,https://www.saucedemo.com/inventory.html)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at pages.HomePage.validateLogin(HomePage.java:56)
+	at test.TC_001_LoginTest.loginTest(TC_001_LoginTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, , BlankInputs, Epic sadface: Username is required)">
+                  </a> <!-- loginTest(, , BlankInputs, Epic sadface: Username is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,,BlankInputs,Epic sadface: Username is required)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Epic sadface: Username is required] but found [Epic sadface: Username and password do not match any user in this service]
+	at pages.HomePage.validateLogin(HomePage.java:71)
+	at test.TC_001_LoginTest.loginTest(TC_001_LoginTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-failed -->
+          <div class="suite-CrossBrowserParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_004_CheckOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutTest">
+                  </a> <!-- checkOutTest -->
+                  <span class="method-name">checkOutTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.InventoryPage.productList(InventoryPage.java:33)
+	at test.TC_004_CheckOut.checkOutTest(TC_004_CheckOut.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-failed -->
+          <div class="suite-CrossBrowserParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_002_ProductList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productListTest">
+                  </a> <!-- productListTest -->
+                  <span class="method-name">productListTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.InventoryPage.productList(InventoryPage.java:33)
+	at test.TC_002_ProductList.productListTest(TC_002_ProductList.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productListTest">
+                  </a> <!-- productListTest -->
+                  <span class="method-name">productListTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.InventoryPage.productList(InventoryPage.java:33)
+	at test.TC_002_ProductList.productListTest(TC_002_ProductList.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-failed -->
+          <div class="suite-CrossBrowserParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_003_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productListTest">
+                  </a> <!-- productListTest -->
+                  <span class="method-name">productListTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at pages.InventoryPage.productList(InventoryPage.java:33)
+	at test.TC_003_AddToCart.productListTest(TC_003_AddToCart.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-failed -->
+          <div class="suite-CrossBrowserParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_001_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, , BlankInputs, Epic sadface: Username is required)">
+                  </a> <!-- loginTest(, , BlankInputs, Epic sadface: Username is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,,BlankInputs,Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)">
+                  </a> <!-- loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(abc,abc@123,InvalidInputs,Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)">
+                  </a> <!-- loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,secret_sauce,InvalidUsername,Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)">
+                  </a> <!-- loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,,InvalidPassword,Epic sadface: Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)">
+                  </a> <!-- loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,secret_sauce,InvalidUsername,Epic sadface: Username is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,secret_sauce,ValidInputs,https://www.saucedemo.com/inventory.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)">
+                  </a> <!-- loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(standard_user,,InvalidPassword,Epic sadface: Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)">
+                  </a> <!-- loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(abc,abc@123,InvalidInputs,Epic sadface: Username and password do not match any user in this service)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-passed -->
+          <div class="suite-CrossBrowserParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_004_CheckOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutTest">
+                  </a> <!-- checkOutTest -->
+                  <span class="method-name">checkOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-passed -->
+          <div class="suite-CrossBrowserParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_003_AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productListTest">
+                  </a> <!-- productListTest -->
+                  <span class="method-name">productListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrossBrowserParallelSuite-class-passed -->
+        </div> <!-- panel CrossBrowserParallelSuite -->
+        <div panel-name="test-xml-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\leema\Downloads\SauceDemoProject_POM_TestNG-master\SauceDemoProject_POM_TestNG-master\testngParallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;CrossBrowserParallelSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC_001_LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_002_ProductList&quot;/&gt;
+      &lt;class name=&quot;test.TC_003_AddToCart&quot;/&gt;
+      &lt;class name=&quot;test.TC_004_CheckOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC_001_LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_002_ProductList&quot;/&gt;
+      &lt;class name=&quot;test.TC_003_AddToCart&quot;/&gt;
+      &lt;class name=&quot;test.TC_004_CheckOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- CrossBrowserParallelSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrossBrowserParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrossBrowserParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">productListTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrossBrowserParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrossBrowserParallelSuite');
+function tableData_CrossBrowserParallelSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'productListTest')
+data.setCell(0, 2, 'test.TC_002_ProductList')
+data.setCell(0, 3, 60485);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkOutTest')
+data.setCell(1, 2, 'test.TC_004_CheckOut')
+data.setCell(1, 3, 31494);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'productListTest')
+data.setCell(2, 2, 'test.TC_003_AddToCart')
+data.setCell(2, 3, 31335);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'productListTest')
+data.setCell(3, 2, 'test.TC_002_ProductList')
+data.setCell(3, 3, 31272);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'productListTest')
+data.setCell(4, 2, 'test.TC_003_AddToCart')
+data.setCell(4, 3, 30886);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'test.TC_001_LoginTest')
+data.setCell(5, 3, 30477);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'test.TC_001_LoginTest')
+data.setCell(6, 3, 1342);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkOutTest')
+data.setCell(7, 2, 'test.TC_004_CheckOut')
+data.setCell(7, 3, 1117);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'test.TC_001_LoginTest')
+data.setCell(8, 3, 984);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'test.TC_001_LoginTest')
+data.setCell(9, 3, 966);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'test.TC_001_LoginTest')
+data.setCell(10, 3, 729);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'test.TC_001_LoginTest')
+data.setCell(11, 3, 669);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'test.TC_001_LoginTest')
+data.setCell(12, 3, 543);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'test.TC_001_LoginTest')
+data.setCell(13, 3, 506);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'test.TC_001_LoginTest')
+data.setCell(14, 3, 393);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTest')
+data.setCell(15, 2, 'test.TC_001_LoginTest')
+data.setCell(15, 3, 311);
+window.suiteTableData['CrossBrowserParallelSuite']= { tableData: data, tableDiv: 'times-div-CrossBrowserParallelSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-CrossBrowserParallelSuite">
+              </div> <!-- times-div-CrossBrowserParallelSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrossBrowserParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_004_CheckOut</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_002_ProductList</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_003_AddToCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">closeReport</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrossBrowserParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportInitialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">415 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">416 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">416 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">416 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">433 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">433 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_CheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">1426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">1426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">3727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(standard_user, secret_sauce, ValidInputs, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">5044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">5371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">5374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">5953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">5955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)</span>
+                <span class="method-start">7339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, secret_sauce, InvalidUsername, Epic sadface: Username is required)</span>
+                <span class="method-start">7857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">8494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">8494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">8958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">8960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)</span>
+                <span class="method-start">10255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">10674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">10676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(standard_user, , InvalidPassword, Epic sadface: Password is required)</span>
+                <span class="method-start">11846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, , BlankInputs, Epic sadface: Username is required)</span>
+                <span class="method-start">12880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">12986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">12986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">13363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">13369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTest(, , BlankInputs, Epic sadface: Username is required)</span>
+                <span class="method-start">15083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)</span>
+                <span class="method-start">15555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">16155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">16155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">16248 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">16254 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">16257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productListTest</span>
+                <span class="method-start">18720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest(abc, abc@123, InvalidInputs, Epic sadface: Username and password do not match any user in this servi...)</span>
+                <span class="method-start">19953 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">50127 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">50127 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">50127 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">50549 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">50549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">50551 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productListTest</span>
+                <span class="method-start">53667 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productListTest</span>
+                <span class="method-start">54111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">114739 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_CheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, chrome)</span>
+                <span class="method-start">114739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">114739 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002_ProductList</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">114843 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">114845 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">114846 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_CheckOut</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkOutTest</span>
+                <span class="method-start">116960 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">productListTest</span>
+                <span class="method-start">118426 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_CheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">148631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">149884 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003_AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">149884 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004_CheckOut</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunchAndLoadUrl(https://www.saucedemo.com/, edge)</span>
+                <span class="method-start">149885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOutTest</span>
+                <span class="method-start">152795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">154027 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeReport</span>
+                <span class="method-start">154043 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
